@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  dose_size: 1
+  dose_type: MyString
+  no_of_doses: 1
+  price_of_doses: 1
+  currency: MyString
+  time_period: 1
+  time_type: MyString
+  avg_value: 1
+  alpha: 1
+  progress: 1
+  counter: 1
+  user: one
+
+two:
+  name: MyString
+  dose_size: 1
+  dose_type: MyString
+  no_of_doses: 1
+  price_of_doses: 1
+  currency: MyString
+  time_period: 1
+  time_type: MyString
+  avg_value: 1
+  alpha: 1
+  progress: 1
+  counter: 1
+  user: two
