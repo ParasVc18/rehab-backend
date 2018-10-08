@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_01_201959) do
+ActiveRecord::Schema.define(version: 2018_10_07_195320) do
 
   create_table "comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "content"
@@ -40,13 +40,15 @@ ActiveRecord::Schema.define(version: 2018_10_01_201959) do
     t.string "currency"
     t.integer "time_period"
     t.string "time_type"
-    t.integer "avg_value"
-    t.integer "alpha"
-    t.integer "progress"
+    t.float "avg_value"
+    t.float "alpha"
+    t.float "progress"
     t.integer "counter"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "total"
+    t.integer "spent"
     t.index ["user_id"], name: "index_poisons_on_user_id"
   end
 
